@@ -12,8 +12,7 @@
 	<LINK REL=STYLESHEET HREF="./css/bootstrap.min.css" TYPE="text/css">
 </head>
 <body> 
-	<%@ include file="./header.jsp" %>
-	<br><br>
+	
 	<center><span class="badge badge-success"><h3>Customer List</h3></span></center><br><br>
 	
 	<table BORDER=5 ALIGN="CENTER">
@@ -38,7 +37,5 @@
 	</c:forEach>
 	
 	</table>
-	
-	<%@ include file="././footer.jsp" %>	
 </body>
 </html>
